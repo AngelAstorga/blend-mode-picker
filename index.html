@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container_menu">
+            <div class="images_container">
+                <div id="1" onclick="changeImage(this)" class="wrapper"><img src="/assets/images/paisaje1.jpg" alt=""></div>
+                <div id="2" onclick="changeImage(this)" class="wrapper"><img src="/assets/images/paisaje2.jpg" alt=""></div>
+                <div id="3" onclick="changeImage(this)" class="wrapper"><img src="/assets/images/paisaje3.jpg" alt=""></div>
+                <div id="4" onclick="changeImage(this)" class="wrapper"><img src="/assets/images/paisaje4.jpg" alt=""></div>
+                <div id="5" onclick="changeImage(this)" class="wrapper"><img src="/assets/images/paisaje5.jpg" alt=""></div>
+                <div id="6" onclick="changeImage(this)" class="wrapper"><img src="/assets/images/paisaje6.jpg" alt=""></div>
+            </div>
+            <div class="options_container">
+                <div class="option">
+                    <label for="normal">normal</label>
+                    <input type="radio" name="option" id="normal" checked="checked" onclick="change(this)">
+                </div>
+                <div class="option">
+                    <label for="multiply">multiply</label>
+                    <input type="radio" name="option" id="multiply" onclick="change(this)">
+                </div>
+                <div class="option">
+                    <label for="screen">screen</label>
+                    <input type="radio" name="option" id="screen" onclick="change(this)">
+                </div>
+                <div class="option">
+                    <label for="overlay">overlay</label>
+                    <input type="radio" name="option" id="overlay" onclick="change(this)">
+                </div>
+                <div class="option">
+                    <label for="darken">darken</label>
+                    <input type="radio" name="option" id="darken" onclick="change(this)">
+                </div>
+                <div class="option">
+                    <label for="lighten">lighten</label>
+                    <input type="radio" name="option" id="lighten" onclick="change(this)">
+                </div>
+                <div class="option">
+                    <label for="color-dodge">color-dodge</label>
+                    <input type="radio" name="option" id="color-dodge" onclick="change(this)">
+                </div>
+                <div class="option">
+                    <label for="saturation">saturation</label>
+                    <input type="radio" name="option" id="saturation" onclick="change(this)">
+                </div>
+                <div class="option">
+                    <label for="color">color</label>
+                    <input type="radio" name="option" id="color" onclick="change(this)">
+                </div>
+                <div class="option">
+                    <label for="luminosity">luminosity</label>
+                    <input type="radio" name="option" id="luminosity" onclick="change(this)">
+                </div>
+            </div>
+        </div>
+        <div class="container_result">
+
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
